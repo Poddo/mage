@@ -52,7 +52,7 @@ public class Earthshaker extends CardImpl {
     private static final FilterCreaturePermanent creatureFilter = new FilterCreaturePermanent("creature without flying");
 
     static {
-        filter.add(Predicates.not(new AbilityPredicate(FlyingAbility.class)));
+        creatureFilter.add(Predicates.not(new AbilityPredicate(FlyingAbility.class)));
     }
 
     public Earthshaker(UUID ownerId) {

@@ -41,7 +41,7 @@ import mage.constants.Rarity;
  */
 public class ShamblingGhoul extends CardImpl {
     
-    private static final String staticText = "{this} enters the battlefield tapped";
+    private static final String staticText = "tapped";
 
     public ShamblingGhoul(UUID ownerId) {
         super(ownerId, 119, "Shambling Ghoul", Rarity.COMMON, new CardType[]{CardType.CREATURE}, "{1}{B}");
